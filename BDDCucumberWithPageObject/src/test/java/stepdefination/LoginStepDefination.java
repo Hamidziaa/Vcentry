@@ -25,6 +25,7 @@ public class LoginStepDefination {
 		WebDriverManager.firefoxdriver().setup();
 		driver=new FirefoxDriver();
 		new LoginPages(driver);
+		// to open web browser
 	}
 
 	@Then("Enter url {string}")
